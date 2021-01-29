@@ -10,4 +10,15 @@
  */
 public class ZoneGeographique {
     
+    int numero;
+    String nom;
+    double indemniteRepas;
+    
+    
+    
+    public String toString(){
+        return "Zone numéro" + numero + "nom : " + nom;
+    }
+    
+    
 }
